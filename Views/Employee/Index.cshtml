@@ -1,0 +1,391 @@
+﻿@model MetrosoftForm.Models.Employee;
+
+
+<form class="row g-3">
+      @* this is for the Employee personal informations*@
+        <h4>PERSONAL INFORMATION</h4>
+        <div class="col-md-6">
+            <label for="Surname" class="form-label">Surname</label>
+            <input type="text" class="form-control" id="Surname" placeholder="Enter Surname">
+        </div>
+        <div class="col-md-6">
+            <label for="Name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="Name" placeholder="Enter Name">
+        </div>
+        <div class="col-12">
+            <label for="OtherNames" class="form-label">OtherNames</label>
+            <input type="text" class="form-control" id="OtherNames" placeholder="Enter Other Names">
+        </div>
+        <div class="col-md-12">
+            <label for="HomeAddress" class="form-label">HomeAddress</label>
+            <input type="text" class="form-control" id="HomeAddress" placeholder="Home Address....">
+        </div>
+        <div class="col-md-6">
+            <label for="TelePhone" class="form-label">TelePhone</label>
+            <input type="text" class="form-control" id="TelePhone" placeholder="TelePhone">
+        </div>
+
+        <div class="col-md-6">
+            <label for="Contact Address" class="form-label">Contact Address</label>
+            <input type="text" class="form-control" id="ContactAddress" placeholder="Contact Address....">
+        </div>
+        <div class="col-md-12">
+            <label for="Date" class="form-label">Date Of Birth</label>
+            <input type="date" class="form-control" id="DateOfBirth" placeholder="Date Of Birth">
+        </div>
+        <div class="col-md-12">
+            <label for="PlaceOfBirth" class="form-label">Place Of Birth</label>
+            <input type="text" class="form-control" id="PlaceOfBirth" placeholder="Place Of Birth">
+        </div>
+        <div class="col-md-12">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="PlaceOfBirth" placeholder="name@example.com">
+        </div>
+        <div class="col-md-6">
+            <label for="MaritalStatus" class="form-label">Marital Status</label>
+            <input type="text" class="form-control" id="PlaceOfBirth" placeholder="Marital Status">
+        </div>
+        <div class="col-md-6">
+            <label for="Nationality" class="form-label">Nationality</label>
+            <input type="text" class="form-control" id="Nationality" placeholder="Nationality">
+        </div>
+        <div class="col-md-6">
+            <label for="NameOfSpouse" class="form-label">Name Of Spouse</label>
+            <input type="text" class="form-control" id="NameOfSpouse" placeholder="Name Of Spouse">
+        </div>
+        <div class="col-md-6">
+            <label for="Profession" class="form-label">Profession</label>
+            <input type="text" class="form-control" id="Profession" placeholder="Profession">
+        </div>
+        <div class="col-md-12">
+            <label for="NameOfChildren" class="form-label">Name Of Children</label>
+            <input type="text" class="form-control" id="NameOfChildren" placeholder="Name Of Children">
+        </div>
+
+       @* this form the next of kin informations*@
+       <h4>NEXT OF KIN INFORMATION</h4>
+        <div class="col-md-6">
+            <label for="NextOfKin" class="form-label">Next Of Kin</label>
+            <input type="text" class="form-control" id="NextOfKin" placeholder="Next Of Kin">
+        </div>
+        <div class="col-md-6">
+            <label for="Profession" class="form-label">Profession</label>
+            <input type="text" class="form-control" id="Profession" placeholder="Profession">
+        </div>
+        <div class="col-md-12">
+            <label for="Relationship" class="form-label">Relationship</label>
+            <input type="text" class="form-control" id="Relationship" placeholder="Relationship">
+        </div>
+        <div class="col-md-12">
+            <label for="Emergency" class="form-label">Person to Notify in Emergency</label>
+            <input type="text" class="form-control" id="Emergency" placeholder="Person to Notify in Emergency">
+        </div>
+        <div class="col-md-12">
+            <label for="Address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="Address" placeholder="Next Of Kin Address.....">
+        </div>
+        <div class="col-md-6">
+            <label for="PersonEmail" class="form-label">Next Of Kin Email</label>
+            <input type="email" class="form-control" id="PersonEmail" placeholder="name@example.com">
+        </div>
+        <div class="col-md-6">
+            <label for="PersonPhoneNumber" class="form-label">Next Of Kin Phone Number</label>
+            <input type="text" class="form-control" id="PersonPhoneNumber" placeholder="Next Of Kin phone Number">
+        </div>
+        
+      @*  this for the parent informations*@
+       <h4>PARENTS INFORMATIONS</h4>
+        <div class="col-md-12">
+            <label for="FatherFullName" class="form-label">Father FullName</label>
+            <input type="text" class="form-control" id="FatherFullName" placeholder="Father FullName">
+        </div>
+        <div class="col-md-6">
+            <label for="FatherHomeTown" class="form-label">Father Home-Town </label>
+            <input type="text" class="form-control" id="FatherHomeTown" placeholder="Father HomeTown">
+        </div>
+        <div class="col-md-6">
+            <label for="FatherCurrentAddres" class="form-label">Father Current Addres</label>
+            <input type="text" class="form-control" id="FatherCurrentAddres" placeholder="Father Current Addres....">
+        </div>
+        <div class="col-md-12">
+            <label for="MotherFullName" class="form-label">Mother FullName</label>
+            <input type="text" class="form-control" id="MotherFullName" placeholder="Mother FullName">
+        </div>
+        <div class="col-md-6">
+            <label for="MotherHomeTown" class="form-label">Mother Home Town</label>
+            <input type="text" class="form-control" id="MotherHomeTown" placeholder="Mother Home Town">
+        </div>
+        <div class="col-md-6">
+            <label for="MotherCurrentAddress" class="form-label">Mother Current Address</label>
+            <input type="text" class="form-control" id="MotherCurrentAddress" placeholder="Mother Current Address">
+        </div>
+
+      @* this is for eductional history*@
+       <h4>EDUCATIONAL HISTORY</h4>
+         <div class="row">
+                <div class="col-md-4">
+                    <label for="PrimarySchoolAttended" class="form-label">Primary School Attended</label>
+                    <input type="text" class="form-control" id="SchoolAttended" placeholder="Primary School Attended">
+                </div>
+                <div class="col-md-4">
+                    <label for="Subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="Subject" placeholder="Subject">
+                </div>
+                <div class="col-md-2">
+                    <label for="StartYear" class="form-label">StartYear</label>
+                    <input type="date" class="form-control" id="StartYear">
+                </div>
+                <div class="col-md-2">
+                    <label for="EndYear" class="form-label">EndYear</label>
+                    <input type="date" class="form-control" id="EndYear">
+                </div>
+         </div>
+         <br />
+         <div class="row">
+                <div class="col-md-4">
+                    <label for="SecondarySchoolAttended" class="form-label">Secondary School Attended</label>
+                    <input type="text" class="form-control" id="SecondarySchoolAttended" placeholder="Secondary School Attended">
+                </div>
+                <div class="col-md-4">
+                    <label for="Subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="Subject" placeholder="Subject">
+                </div>
+                <div class="col-md-2">
+                    <label for="StartYear" class="form-label">StartYear</label>
+                    <input type="date" class="form-control" id="StartYear">
+                </div>
+                <div class="col-md-2">
+                    <label for="EndYear" class="form-label">EndYear</label>
+                    <input type="date" class="form-control" id="EndYear">
+                </div>
+         </div>
+        <br />
+         <div class="row">
+                <div class="col-md-4">
+                    <label for="TertiarySchoolAttended" class="form-label">Tertiary School Attended</label>
+                    <input type="text" class="form-control" id="TertiarySchoolAttended" placeholder="Tertiary School Attended">
+                </div>
+                <div class="col-md-4">
+                    <label for="Subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="Subject" placeholder="Subject">
+                </div>
+                <div class="col-md-2">
+                    <label for="StartYear" class="form-label">StartYear</label>
+                    <input type="date" class="form-control" id="StartYear">
+                </div>
+                <div class="col-md-2">
+                    <label for="EndYear" class="form-label">EndYear</label>
+                    <input type="date" class="form-control" id="EndYear">
+                </div>
+         </div>
+        
+    
+    @*for professional Qualification*@ 
+        <h4>Professional Qualification </h4>
+        <div class="col-md-12">
+            <label for="ProfessionalQualification" class="form-label">Professional Qualification</label>
+            <input type="text" class="form-control" id="ProfessionalQualification" placeholder="Professional Qualification">
+        </div>
+        <div class="col-md-12">
+            <label for="Project" class="form-label">Project</label>
+            <input type="text" class="form-control" id="Project" placeholder="Project">
+        </div>
+
+        @*for employment history*@
+       <h4>EMPLOYMENT HISTORY</h4>
+       <div class="row">
+            <div class="col-md-2">
+                <label for="Period" class="form-label">Period</label>
+                <input type="text" class="form-control" id="Period" placeholder="Period.....">
+            </div>
+            <div class="col-md-5">
+                <label for="Organisation" class="form-label">Organisation</label>
+                <input type="text" class="form-control" id="Organisation" placeholder="Organisation.....">
+            </div>
+            <div class="col-md-2">
+                <label for="Salary" class="form-label">Salary</label>
+                <input type="text" class="form-control" id="Salary" placeholder="Salary.....">
+            </div>
+            <div class="col-md-3">
+                <label for="ReasonForLeaving" class="form-label">Reason For Leaving</label>
+                <input type="text" class="form-control" id="ReasonForLeaving" placeholder="Reason For Leaving.....">
+            </div>
+       </div>
+       <br />
+      <div class="row">
+            <div class="col-md-2">
+                <label for="Period" class="form-label">Period</label>
+                <input type="text" class="form-control" id="Period" placeholder="Period.....">
+            </div>
+            <div class="col-md-5">
+                <label for="Organisation" class="form-label">Organisation</label>
+                <input type="text" class="form-control" id="Organisation" placeholder="Organisation.....">
+            </div>
+            <div class="col-md-2">
+                <label for="Salary" class="form-label">Salary</label>
+                <input type="text" class="form-control" id="Salary" placeholder="Salary.....">
+            </div>
+            <div class="col-md-3">
+                <label for="ReasonForLeaving" class="form-label">Reason For Leaving</label>
+                <input type="text" class="form-control" id="ReasonForLeaving" placeholder="Reason For Leaving.....">
+            </div>
+      </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2">
+            <label for="Period" class="form-label">Period</label>
+            <input type="text" class="form-control" id="Period" placeholder="Period.....">
+        </div>
+        <div class="col-md-5">
+            <label for="Organisation" class="form-label">Organisation</label>
+            <input type="text" class="form-control" id="Organisation" placeholder="Organisation.....">
+        </div>
+        <div class="col-md-2">
+            <label for="Salary" class="form-label">Salary</label>
+            <input type="text" class="form-control" id="Salary" placeholder="Salary.....">
+        </div>
+        <div class="col-md-3">
+            <label for="ReasonForLeaving" class="form-label">Reason For Leaving</label>
+            <input type="text" class="form-control" id="ReasonForLeaving" placeholder="Reason For Leaving.....">
+        </div>
+    </div>
+        
+       
+
+    @*for Indebt*@
+        <h4>Please include all monetized benefits</h4>
+        <div class="col-md-12">
+            <label for="Indebt" class="form-label">Are you indebted to your current employer</label>
+            <select id="inputState" class="form-select">
+                <option selected>Yes..</option>
+                <option>No...</option>
+            </select>
+        </div>
+        <div class="col-md-12">
+            <label for="IndebtAmount" class="form-label">if yes, state nature and amount of debt</label>
+            <input type="text" class="form-control" id="IndebtAmount" placeholder="Indebt Amount.....">
+        </div>
+      @*for medical history*@
+        <h3>MEDICAL HISTORY</h3>
+        <div class="col-md-12">
+            <label for="MedicalHistory" class="form-label">Medical History</label>
+            <input type="text" class="form-control" id="MedicalHistory" placeholder="Medical History.....">
+        </div>
+  
+       @*for police and criminal records*@
+       <h4>POLICE/CRIMINAL RECORDS</h4>
+            <div class="col-md-12">
+            <label for="MedicalHistory" class="form-label">if yes, state and give detail</label>
+            <input type="text" class="form-control" id="MedicalHistory" placeholder="Medical History.....">
+        </div>
+        <div class="col-md-12">
+            <label for="crime" class="form-label">if yes, state and give detail</label>
+            <input type="text" class="form-control" id="crime" placeholder="crime.....">
+        </div>
+        <div class="col-md-12">
+            <label for="CrimeDate" class="form-label">Crime Date</label>
+            <input type="text" class="form-control" id="CrimeDate" placeholder="Crime Date.....">
+        </div>
+        <div class="col-md-12">
+            <label for="NameOfLawEnforcement" class="form-label">Name Of Law Enforcement</label>
+            <input type="text" class="form-control" id="NameOfLawEnforcement" placeholder="Name Of Law Enforcement.....">
+        </div>
+        <div class="col-md-12">
+            <label for="PenaltyImpose" class="form-label">Penalty Impose</label>
+            <input type="text" class="form-control" id="PenaltyImpose" placeholder="Penalty Impose.....">
+        </div>
+        @*for social, leisure and sporting activities achievments*@
+       <h4>SOCIAL,LEISURE AND SPORTING ACTIVITES, ACHIVEMENTS</h4>
+        <div class="col-md-12">
+            <label for="SocialActivity" class="form-label">Social Activity</label>
+            <input type="text" class="form-control" id="SocialActivity" placeholder="Social Activity.....">
+        </div>
+        <div class="col-md-12">
+            <label for="Leisure" class="form-label">Leisure</label>
+            <input type="text" class="form-control" id="Leisure" placeholder="Leisure.....">
+        </div>
+        
+        @*for general interests*@
+        <h4>GENERAL INTERESTS</h4>
+        <div class="col-md-12">
+            <label for="General" class="form-label">General</label>
+            <input type="text" class="form-control" id="General" placeholder="General.....">
+        </div>
+
+    @*for briefly outlining your reasons for applying to metrosoft*@
+        <h4>BRIEFLY OUTLINE YOUR REASONS FOR APPLYING TO METROSOFT</h4>
+        <div class="col-md-12">
+            <label for="Briefly" class="form-label">Briefly</label>
+            <input type="text" class="form-control" id="Briefly" placeholder="Briefly.....">
+        </div>
+
+      @*for additional informations*@
+        <h4>ADDITIONAL INFORMATION</h4>
+        <div class="col-md-12">
+            <label for="Addictional" class="form-label">Addictional</label>
+            <input type="text" class="form-control" id="Addictional" placeholder="Addictional.....">
+        </div>
+     
+        @*for References*@
+         <h4>REFERENCES</h4>
+         <div class="row">
+              <div class="col-md-5">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="Name" placeholder="Name.....">
+            </div>
+            <div class="col-md-2">
+                <label for="Years" class="form-label">Years</label>
+                <input type="text" class="form-control" id="Years" placeholder="Years.....">
+            </div>
+            <div class="col-md-5">
+                <label for="Address" class="form-label">Address</label>
+                <input type="text" class="form-control" id="Address" placeholder="Address.....">
+            </div>
+         </div>
+        <div class="row">
+              <div class="col-md-5">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="Name" placeholder="Name.....">
+            </div>
+            <div class="col-md-2">
+                <label for="Years" class="form-label">Years</label>
+                <input type="text" class="form-control" id="Years" placeholder="Years.....">
+            </div>
+            <div class="col-md-5">
+                <label for="Address" class="form-label">Address</label>
+                <input type="text" class="form-control" id="Address" placeholder="Address.....">
+            </div>
+         </div>
+    <div class="row">
+        <div class="col-md-5">
+            <label for="Name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="Name" placeholder="Name.....">
+        </div>
+        <div class="col-md-2">
+            <label for="Years" class="form-label">Years</label>
+            <input type="text" class="form-control" id="Years" placeholder="Years.....">
+        </div>
+        <div class="col-md-5">
+            <label for="Address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="Address" placeholder="Address.....">
+        </div>
+    </div>
+        
+
+    @*for resumption details*@
+          <div class="col-md-12">
+            <label for="DateOfResumption" class="form-label">DateOfResumption</label>
+            <input type="date" class="form-control" id="DateOfResumption" placeholder="Date Of Resumption.....">
+          </div>
+          <div class="col-md-12">
+            <label for="NoticePeriod" class="form-label">Notice Period</label>
+            <input type="text" class="form-control" id="NoticePeriod" placeholder="Notice Period.....">
+          </div>
+         <div class="col-md-12">
+             <label for="RequiredSalary" class="form-label">Required Salary</label>
+            <input type="text" class="form-control" id="RequiredSalary" placeholder="Required Salary.....">
+          </div>  
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+</form>
